@@ -22,7 +22,7 @@ Welcome to the Spring Boot Quiz App backend! This application provides the backe
 ## Technologies Used
 
 - **Spring Boot:** The primary framework for building the backend.
-- **PostgreSQL:** The database used to store quiz and question data.
+- **RDS:** The database used to store quiz and question data.
 - **Spring Security:** For securing API endpoints.
 
 ## Database Setup
