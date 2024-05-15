@@ -27,11 +27,11 @@ Welcome to the Spring Boot Quiz App backend! This application provides the backe
 
 ## Database Setup
 
-1. Install PostgreSQL and create a new database.
+1. Create RDS and use nysql Database
 2. Update the `application.properties` file with your database configuration.
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/your-database
+spring.datasource.url=endpoint of RDS
 spring.datasource.username=your-username
 spring.datasource.password=your-password
 
