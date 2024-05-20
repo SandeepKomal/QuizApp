@@ -1,9 +1,9 @@
-package com.nadun.QuizApp.controller;
+package com.komal.QuizApp.controller;
 
-import com.nadun.QuizApp.model.Question;
-import com.nadun.QuizApp.model.QuestionWrapper;
-import com.nadun.QuizApp.model.Response;
-import com.nadun.QuizApp.service.QuizService;
+import com.komal.QuizApp.model.Question;
+import com.komal.QuizApp.model.QuestionWrapper;
+import com.komal.QuizApp.model.Response;
+import com.komal.QuizApp.service.QuizService;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
