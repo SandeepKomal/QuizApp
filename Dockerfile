@@ -22,3 +22,32 @@ EXPOSE 8080
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "/app/QuizApp.jar"]
+
+
+
+# Use the official Maven image to build the application
+FROM maven:3.8.4-openjdk-17 AS build
+WORKDIR /app
+
+# Copy the Maven configuration and POM file
+COPY pom.xml .
+
+# Download dependencies and build the application
+RUN mvn dependency:go-offline
+RUN mvn package -DskipTests
+
+# Copy the application JAR file from the target directory
+COPY target/QuizApp-0.0.1-SNAPSHOT.jar /app/application.jar
+
+# Create a new stage for running the application
+FROM adoptopenjdk/openjdk17:jre-17.0.1_12-alpine
+WORKDIR /app
+
+# Copy the application JAR file from the build stage
+COPY --from=build /app/application.jar .
+
+# Expose the port your Spring Boot application will run on
+EXPOSE 8080
+
+# Command to run the Spring Boot application
+CMD ["java", "-jar", "application.jar"]
