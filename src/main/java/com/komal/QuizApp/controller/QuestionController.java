@@ -1,8 +1,8 @@
-package com.nadun.QuizApp.controller;
+package com.komal.QuizApp.controller;
 
 
-import com.nadun.QuizApp.model.Question;
-import com.nadun.QuizApp.service.QuestionService;
+import com.komal.QuizApp.model.Question;
+import com.komal.QuizApp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
