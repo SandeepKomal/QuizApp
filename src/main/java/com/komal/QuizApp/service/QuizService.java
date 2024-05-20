@@ -1,11 +1,11 @@
-package com.nadun.QuizApp.service;
+package com.komal.QuizApp.service;
 
-import com.nadun.QuizApp.dao.QuestionDAO;
-import com.nadun.QuizApp.dao.QuizDao;
-import com.nadun.QuizApp.model.Question;
-import com.nadun.QuizApp.model.QuestionWrapper;
-import com.nadun.QuizApp.model.Quiz;
-import com.nadun.QuizApp.model.Response;
+import com.komal.QuizApp.dao.QuestionDAO;
+import com.komal.QuizApp.dao.QuizDao;
+import com.komal.QuizApp.model.Question;
+import com.komal.QuizApp.model.QuestionWrapper;
+import com.komal.QuizApp.model.Quiz;
+import com.komal.QuizApp.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
