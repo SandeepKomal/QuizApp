@@ -1,6 +1,6 @@
-package com.nadun.QuizApp.dao;
+package com.komal.QuizApp.dao;
 
-import com.nadun.QuizApp.model.Question;
+import com.komal.QuizApp.model.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
