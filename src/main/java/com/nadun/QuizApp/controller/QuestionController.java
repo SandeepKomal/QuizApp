@@ -25,7 +25,7 @@ public class QuestionController {
     }
     
     @GetMapping("/ping")
-        public String ping() {  return "Hi, this is Driver micro service " ;
+        public String ping() {  return " this is your category " ;
         			
     }
         
