@@ -1,4 +1,4 @@
-package com.nadun.QuizApp.model;
+package com.komal.QuizApp.model;
 
 import com.nadun.QuizApp.service.QuizService;
 import jakarta.persistence.*;
