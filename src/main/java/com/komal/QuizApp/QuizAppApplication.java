@@ -1,4 +1,4 @@
-package com.nadun.QuizApp;
+package com.komal.QuizApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
