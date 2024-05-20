@@ -1,6 +1,6 @@
 package com.komal.QuizApp.model;
 
-import com.nadun.QuizApp.service.QuizService;
+import com.komal.QuizApp.service.QuizService;
 import jakarta.persistence.*;
 import lombok.Data;
 
