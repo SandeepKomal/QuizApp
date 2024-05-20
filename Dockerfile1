@@ -10,7 +10,7 @@ RUN mvn dependency:go-offline
 RUN mvn package -DskipTests
 
 # Copy the application JAR file from the target directory
-COPY target/QuizApp-0.0.1-SNAPSHOT.jar /app/application.jar
+COPY target/QuizApp-0.0.1-SNAPSHOT.jar /app/QuizApp.jar
 
 # Create a new stage for running the application
 FROM openjdk:17-jdk-slim
