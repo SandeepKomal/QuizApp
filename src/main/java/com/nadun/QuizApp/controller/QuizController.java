@@ -25,7 +25,7 @@ public class QuizController {
     }
     
     @GetMapping("/ping")
-        public String ping() {  return "Hi, this is Driver micro service " ;
+        public String ping() {  return " This is Quiz app " ;
         			
     }
 
