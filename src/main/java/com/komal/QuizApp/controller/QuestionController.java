@@ -25,7 +25,7 @@ public class QuestionController {
     }
     
     @GetMapping("/ping")
-        public String ping() {  return " this is your category " ;
+        public String ping() {  return " what is your Question " ;
         			
     }
         
